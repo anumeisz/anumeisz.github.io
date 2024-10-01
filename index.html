@@ -2,80 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sample Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav a:hover {
-            color: #007BFF;
-        }
-        main {
-            padding: 20px;
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="./pages/academic.html">Background</a></li>
+                    <li><a href="./pages/projects.html">Projects</a></li>
+                    <li><a href="./pages/opensource.html">Open Source</a></li>
+                    <li><a href="./pages/photography.html">Photography</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="page-content" aria-label="Content">
+            <div class="content-wrapper">
+                <div class="gif-container">
+        <iframe 
+            src="https://giphy.com/embed/wwg1suUiTbCY8H8vIA"
+            width="480" 
+            height="480" 
+            style="border:none;" 
+            frameborder="0" 
+            class="giphy-embed" 
+            allowfullscreen>
+        </iframe>
+        <p><a href="https://giphy.com/embed/wwg1suUiTbCY8H8vIA"></a></p>
+    </div>
+                <header>
+                    <h1 class="fullname">Anu Meiszterics</h1>
+                    <p><br>
+                        >>> Welcome! <br>
+                        >>> Bioinformatics MSc, Software Engineering @CFG Degree  <br><br>
+                        &gt;>> Currently working as a Bioinformatics/Researcher at ELTE. <br><br>
+                        <span class="icon">☣</span> <u>My latest projects:</u>  <span class="icon">☣</span> <br><br>
+                        <strong>>Project 1:</strong> blabla  <br><br>
+                        <strong>>Project 2:</strong> blabla <br><br>
+                        
+                    </p>
+                  <p>2024 All Rights Reserved ©</p>
+                </header>
+            </div>
+                
+        </main>
 
-<header>
-    <h1>Welcome to the Sample Page</h1>
-</header>
-
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</nav>
-
-<main>
-    <h2>About This Page</h2>
-    <p>This is a simple HTML page example with basic structure and styling. 
-    <a href="./pages/academic.html">TEST</a>    
-    It includes a header, navigation, main content area, and footer. You can modify this sample to create your own website.</p>
-    
-    <h3>Sample Features</h3>
-    <ul>
-        <li>Responsive design using meta viewport tag</li>
-        <li>Basic CSS styling</li>
-        <li>Simple navigation menu</li>
-    </ul>
-</main>
-
-<footer>
-    <p>Copyright &copy; 2024 Sample Website</p>
-</footer>
-
+    </div>
+  
 </body>
 </html>
